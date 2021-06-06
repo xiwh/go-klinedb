@@ -15,17 +15,17 @@ Takes :262ms
 100 concurrent queries for 1 month's minute-line data:
 Takes :140ms
 ```
-- Centos 2CoreCPU 8GRAM HDD result:
+- Centos 2CoreCPU 8GRAM HDD test result:
 ```
 Batch write 10-year minute line data:
-Executed：4161000 row,Takes: 966ms
+Executed：4161000 row,Takes: 6751ms
 Write:260062kb
 File Size:260062kb
 Single-thread query of 5-year minute-line data:
 Data count：2629441 row
-Takes :242ms
+Takes :358ms
 100 concurrent queries for 1 month's minute-line data:
-Takes :240ms
+Takes :724ms
 ```
 ## Usage
 
